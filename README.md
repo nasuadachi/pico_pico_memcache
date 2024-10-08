@@ -14,7 +14,8 @@ set MyKey TestValue
 ```
 
 ```
-% get MyKey
+% telnet localhost 11211
+get MyKey
 TestValue
 ```
 
